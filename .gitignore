@@ -1,0 +1,6 @@
+# Ignora toda la carpeta bin
+bin/
+
+# Ignora los archivos de configuracion del proyecto
+.classpath
+.project
