@@ -10,7 +10,7 @@ public class Launcher {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
             	SimplePresentationScreen frame = new SimplePresentationScreen(
-            			new Student(126185 , "Luis" , "Ever" , "everbarrios2001@gmail.com" , "https://github.com/Ever14" , "/images/logoUsuario(captura).png"));
+            			new Student(126185 , "Barrios" , "Ever" , "everbarrios2001@gmail.com" , "https://github.com/Ever14" , "/images/logoUsuario(captura).png"));
             	frame.setVisible(true);
             }
         });

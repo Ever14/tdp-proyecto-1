@@ -68,14 +68,14 @@ public class SimplePresentationScreen extends JFrame {
 		lblInfoLu.setBackground(Color.WHITE);
 		
 		JLabel lnlApellido = new JLabel("Apellido");
-		JLabel lblInfoApellido = new JLabel("Barrios");
+		JLabel lblInfoApellido = new JLabel(studentData.getLastName());
 		lblInfoApellido.setFont(fuente);
 		lblInfoApellido.setOpaque(true);
 		lblInfoApellido.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
 		lblInfoApellido.setBackground(Color.WHITE);
 		
 		JLabel lblNombre = new JLabel("Nombre");
-		JLabel lblInfoNombre = new JLabel(studentData.getFirstName() + " " + studentData.getLastName());
+		JLabel lblInfoNombre = new JLabel(studentData.getFirstName());
 		lblInfoNombre.setFont(fuente);
 		lblInfoNombre.setOpaque(true);
 		lblInfoNombre.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
